@@ -35,9 +35,9 @@ describe("MyToken", function () {
 
     describe("Minting, burning and populating data structures", function () {
         it("Should populate data structures as expected", async function () {
-            await batchMintLogGas(alice.address, 3, true)
-            await batchMintLogGas(bob.address, 3, true)
-            await batchMintLogGas(carla.address, 3, true)
+            await batchMintLogGas(alice.address, 3, false)
+            await batchMintLogGas(bob.address, 3, false)
+            await batchMintLogGas(carla.address, 3, false)
             log("")
             log("Alice's tokens are", await getAllTokensFromAddress(alice.address))
             log("Bob's tokens are", await getAllTokensFromAddress(bob.address))
