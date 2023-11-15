@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# OpenZeppelin's ERC721Enumerable extension explained
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+The following repository contains the code for a simple ERC721Enumerable contract. It contains a single test file that is used to log the state changes inside the contract and demonstrate OpenZeppelin's architecture of the EIP721 Enumerable extension:
 
-Try running some of the following tasks:
+**NOTE: THIS REPOSITORY IS INTENDED FOR EDUCATIONAL PURPOSE ONLY.**
+
+Run the following command to output the reviewed test:
 
 ```shell
-npx hardhat help
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
